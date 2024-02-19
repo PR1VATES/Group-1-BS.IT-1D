@@ -1,7 +1,7 @@
 from tkinter import Tk, Label, StringVar, Entry, Button, OptionMenu, ttk, messagebox, Frame, font
 from tkcalendar import DateEntry
 from tkinter import Toplevel, Button
-from button_functions import generate_pdf, close_database_connection
+from database_operations import generate_pdf, close_database_connection
 from tkinter import Canvas, Scrollbar
 import sqlite3
 import random
